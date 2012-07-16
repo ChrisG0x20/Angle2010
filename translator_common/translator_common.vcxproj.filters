@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\preprocessor">
+      <UniqueIdentifier>{07b6b985-e1ba-4fe5-8d79-cddac0919702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\preprocessor">
+      <UniqueIdentifier>{991439c2-e8a9-4500-a56b-e87b10494b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\depgraph">
+      <UniqueIdentifier>{effbc3f5-f7af-4827-be57-3803593d1a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\depgraph">
+      <UniqueIdentifier>{9d732921-c95e-4242-b567-fb76704f35d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\timing">
+      <UniqueIdentifier>{6d67bc06-1ccc-4276-85da-1aa79e881b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\timing">
+      <UniqueIdentifier>{50225580-c3f6-4dc2-8f01-57e6a548e90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated">
+      <UniqueIdentifier>{3baa3332-14fe-4195-9448-07830150abb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated">
+      <UniqueIdentifier>{2d3413cd-1e22-4384-a0f7-46de758a4cbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\Diagnostics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\DirectiveHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ForLoopUnroll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\BuiltInFunctionEmulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\Compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\DetectRecursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\PoolAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\QualifierAlive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\InfoSink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\Initialize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\InitializeDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\InitializeParseContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\Intermediate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\intermOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\IntermTraverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\MapLongVariableNames.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ossource_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\parseConst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ParseHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\RemoveTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ShaderLang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\SymbolTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ValidateLimitations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\VariableInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\atom.c">
+      <Filter>Source Files\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\cpp.c">
+      <Filter>Source Files\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\cppstruct.c">
+      <Filter>Source Files\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\memory.c">
+      <Filter>Source Files\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\scanner.c">
+      <Filter>Source Files\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\symbols.c">
+      <Filter>Source Files\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\tokens.c">
+      <Filter>Source Files\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraph.cpp">
+      <Filter>Source Files\depgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphBuilder.cpp">
+      <Filter>Source Files\depgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphOutput.cpp">
+      <Filter>Source Files\depgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphTraverse.cpp">
+      <Filter>Source Files\depgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\timing\RestrictFragmentShaderTiming.cpp">
+      <Filter>Source Files\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\timing\RestrictVertexShaderTiming.cpp">
+      <Filter>Source Files\timing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\glslang_lex.cpp">
+      <Filter>Source Files\generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\glslang_tab.cpp">
+      <Filter>Source Files\generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\atom.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\compile.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\cpp.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\length_limits.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\memory.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\parser.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\preprocess.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\scanner.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\slglobals.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\symbols.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\tokens.h">
+      <Filter>Header Files\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraph.h">
+      <Filter>Header Files\depgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphBuilder.h">
+      <Filter>Header Files\depgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphOutput.h">
+      <Filter>Header Files\depgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\timing\RestrictVertexShaderTiming.h">
+      <Filter>Header Files\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\timing\RestrictFragmentShaderTiming.h">
+      <Filter>Header Files\timing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\BaseTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\BuiltInFunctionEmulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ConstantUnion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\DetectRecursion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\Diagnostics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\DirectiveHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ForLoopUnroll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\InfoSink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\Initialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\InitializeGlobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\InitializeParseContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\intermediate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\localintermediate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\MapLongVariableNames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\MMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\osinclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ParseHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\PoolAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\QualifierAlive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\RemoveTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\RenameFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\InitializeDll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\include\GLSLANG\ShaderLang.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ShHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\SymbolTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ValidateLimitations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\VariableInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\glslang_tab.h">
+      <Filter>Header Files\generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

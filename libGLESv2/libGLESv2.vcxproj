@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\angleproject\trunk\src\common\debug.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\common\RefCountObject.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Blit.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Buffer.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Context.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Fence.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Framebuffer.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\HandleAllocator.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\IndexDataManager.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\libGLESv2.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\main.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Program.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\ProgramBinary.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Query.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Renderbuffer.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\ResourceManager.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Shader.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\Texture.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\utilities.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\libGLESv2\VertexDataManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\BinaryStream.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Blit.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Buffer.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Context.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Fence.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Framebuffer.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\HandleAllocator.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\IndexDataManager.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\main.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\mathutil.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Program.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\ProgramBinary.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Query.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Renderbuffer.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\resource.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\ResourceManager.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Shader.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\Texture.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\utilities.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\vertexconversion.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\libGLESv2\VertexDataManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\angleproject\trunk\src\libGLESv2\libGLESv2.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\angleproject\trunk\src\libGLESv2\libGLESv2.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B57B5DCC-4882-4398-9ABD-7EB802ED3A84}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libGLESv2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NOMINMAX;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)Include;$(SolutionDir)..\angleproject\trunk\include;$(SolutionDir)..\angleproject\trunk\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);$(DXSDK_DIR)Lib\$(PlatformShortName)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>translator_common.lib;preprocessor.lib;translator_hlsl.lib;dxguid.lib;d3d9.lib;d3dx9.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>
+      </ImportLibrary>
+      <ModuleDefinitionFile>$(SolutionDir)..\angleproject\trunk\src\libGLESv2\libGLESv2.def</ModuleDefinitionFile>
+    </Link>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NOMINMAX;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(DXSDK_DIR)Include;$(SolutionDir)..\angleproject\trunk\include;$(SolutionDir)..\angleproject\trunk\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir);$(DXSDK_DIR)Lib\$(PlatformShortName)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>translator_common.lib;preprocessor.lib;translator_hlsl.lib;dxguid.lib;d3d9.lib;d3dx9.lib;d3dcompiler.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>
+      </ImportLibrary>
+      <ModuleDefinitionFile>$(SolutionDir)..\angleproject\trunk\src\libGLESv2\libGLESv2.def</ModuleDefinitionFile>
+    </Link>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

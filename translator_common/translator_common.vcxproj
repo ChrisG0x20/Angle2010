@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\BuiltInFunctionEmulator.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\Compiler.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\debug.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraph.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphBuilder.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphOutput.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphTraverse.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\DetectRecursion.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\Diagnostics.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\DirectiveHandler.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ForLoopUnroll.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\glslang_lex.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\glslang_tab.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\InfoSink.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\Initialize.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\InitializeDll.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\InitializeParseContext.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\Intermediate.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\intermOut.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\IntermTraverse.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\MapLongVariableNames.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ossource_win.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\parseConst.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ParseHelper.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\PoolAlloc.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\atom.c" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\cpp.c" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\cppstruct.c" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\memory.c" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\scanner.c" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\symbols.c" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\preprocessor\tokens.c" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\QualifierAlive.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\RemoveTree.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ShaderLang.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\SymbolTable.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\timing\RestrictFragmentShaderTiming.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\timing\RestrictVertexShaderTiming.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\util.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\ValidateLimitations.cpp" />
+    <ClCompile Include="..\..\angleproject\trunk\src\compiler\VariableInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\angleproject\trunk\include\GLSLANG\ShaderLang.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\BaseTypes.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\BuiltInFunctionEmulator.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\Common.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ConstantUnion.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\debug.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraph.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphBuilder.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\depgraph\DependencyGraphOutput.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\DetectRecursion.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\Diagnostics.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\DirectiveHandler.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ForLoopUnroll.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\glslang_tab.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\InfoSink.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\Initialize.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\InitializeDll.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\InitializeGlobals.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\InitializeParseContext.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\intermediate.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\localintermediate.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\MapLongVariableNames.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\MMap.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\osinclude.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ParseHelper.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\PoolAlloc.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\atom.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\compile.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\cpp.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\length_limits.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\memory.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\parser.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\preprocess.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\scanner.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\slglobals.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\symbols.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\preprocessor\tokens.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\QualifierAlive.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\RemoveTree.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\RenameFunction.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ShHandle.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\SymbolTable.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\timing\RestrictFragmentShaderTiming.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\timing\RestrictVertexShaderTiming.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\Types.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\util.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\ValidateLimitations.h" />
+    <ClInclude Include="..\..\angleproject\trunk\src\compiler\VariableInfo.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C94DC0AE-03E1-41C0-AE44-8E7F68EB24FB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>translator_common</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\angleproject\trunk\include;$(SolutionDir)..\angleproject\trunk\src;$(SolutionDir)..\angleproject\trunk\src\compiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\angleproject\trunk\include;$(SolutionDir)..\angleproject\trunk\src;$(SolutionDir)..\angleproject\trunk\src\compiler;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
