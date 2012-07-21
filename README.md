@@ -1,0 +1,1 @@
+Visual Studio 2010 solution and project files to build google's angleproject for 32-bit Windows.
